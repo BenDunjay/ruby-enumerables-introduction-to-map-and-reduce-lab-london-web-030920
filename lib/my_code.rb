@@ -60,7 +60,7 @@ end
   
 
 def reduce_to_any_true(source_array)
-  [source_array].all? { |s| s.size == 1 }
+  [source_array].all? 
   
 end 
 
