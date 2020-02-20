@@ -55,7 +55,7 @@ end
 
 def reduce_to_all_true(source_array)
 [source_array].all? { |boolean| >= false}
-
+end
 end
   
 
