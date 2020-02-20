@@ -59,6 +59,9 @@ counter = 0
 while < counter.length do 
  source_array[counter] == false or nil ? true : false
 
+counter += 1
+end 
+
 end
   
 
