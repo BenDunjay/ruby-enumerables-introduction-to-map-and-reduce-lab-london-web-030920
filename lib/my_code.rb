@@ -54,16 +54,7 @@ end
 end
 
 def reduce_to_all_true(source_array)
-counter = 0 
-
-while counter < source_array.length do 
-
- 
- counter += 1 
- 
- end 
-  
-  
+source_array.any?
 
 end
   
