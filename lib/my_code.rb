@@ -53,14 +53,19 @@ end
   starting_point
 end
 
+
+
 def reduce_to_all_true(source_array)
-counter = 0 
+counter = 1 
+starting_point = source_array[0] 
 
 while counter < source_array.length do 
- source_array[counter] ==   ?  : 
+  
+ starting_point = source_array[counter] && starting_point
 
 counter += 1
 end 
+starting_point
 
 end
   
