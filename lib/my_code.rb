@@ -54,8 +54,10 @@ end
 end
 
 def reduce_to_all_true(source_array)
+counter = 0 
 
- source_array == false or nil ? true : false
+while < counter.length do 
+ source_array[counter] == false or nil ? true : false
 
 end
   
