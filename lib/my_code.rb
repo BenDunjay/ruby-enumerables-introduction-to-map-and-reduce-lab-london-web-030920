@@ -71,7 +71,16 @@ end
   
 
 def reduce_to_any_true(source_array)
+counter = 1 
+starting_point = source_array[0] 
 
+while counter < source_array.length do 
+  
+ starting_point = source_array[counter] && starting_point 
+
+counter += 1
+end 
+starting_point
   
 end 
 
