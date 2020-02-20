@@ -65,7 +65,7 @@ while counter < source_array.length do
  
  end 
   
-  source_array
+  source_array[counter]
 
 end
   
